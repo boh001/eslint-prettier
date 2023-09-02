@@ -1,0 +1,29 @@
+{
+  "name": "@sanghyeon.kim/prettier",
+  "version": "1.0.0",
+  "description": "prettier config",
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "nanobundle build"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "Sanghyeon Kim",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boh001/eslint-prettier.git"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

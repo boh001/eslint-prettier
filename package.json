@@ -1,0 +1,29 @@
+{
+  "name": "eslint-prettier",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "ultra -r build",
+    "release": "yarn changeset publish",
+    "version": "changeset version && yarn install --no-immutable"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nanobundle": "^1.6.0",
+    "ultra-runner": "^3.10.5",
+    "@changesets/cli": "^2.26.2"
+  },
+  "ultra": {
+    "concurrent": [
+      "build"
+    ]
+  }
+}
