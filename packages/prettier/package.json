@@ -1,6 +1,6 @@
 {
-  "name": "@sanghyeon.kim/prettier",
-  "version": "1.0.1",
+  "name": "@sanghyeon.kim/prettier-config",
+  "version": "1.0.0",
   "description": "prettier config",
   "exports": {
     ".": {

@@ -10,8 +10,8 @@
   },
   "scripts": {
     "build": "ultra -r build",
-    "release": "yarn changeset publish",
-    "bump": "changeset version"
+    "bump": "changeset && changeset version",
+    "release": "yarn changeset publish"
   },
   "keywords": [],
   "author": "",

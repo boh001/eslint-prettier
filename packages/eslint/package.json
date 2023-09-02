@@ -1,11 +1,19 @@
 {
-  "name": "@sanghyeon.kim/eslint",
-  "version": "1.0.1",
+  "name": "@sanghyeon.kim/eslint-config",
+  "version": "1.0.0",
   "description": "eslint config",
   "exports": {
-    ".": {
-      "require": "./lib/index.cjs",
-      "import": "./lib/index.mjs"
+    "./base": {
+      "require": "./lib/base.cjs",
+      "import": "./lib/base.mjs"
+    },
+    "./typescript": {
+      "require": "./lib/typescript.cjs",
+      "import": "./lib/typescript.mjs"
+    },
+    "./react": {
+      "require": "./lib/react.cjs",
+      "import": "./lib/react.mjs"
     }
   },
   "scripts": {

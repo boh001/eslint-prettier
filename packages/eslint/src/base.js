@@ -1,10 +1,12 @@
 module.exports = {
   extends: [
+    'eslint-config-prettier',
     "eslint:recommended",
   ],
-  plugins: ["import"],
+  plugins: ["import", 'prettier'],
 
   rules: {
+    'prettier/prettier': 'error',
     "no-implicit-coercion": "error",
     "no-undef": "off",
     indent: "off",
