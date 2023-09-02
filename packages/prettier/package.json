@@ -1,6 +1,6 @@
 {
   "name": "@sanghyeon.kim/prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prettier config",
   "exports": {
     ".": {
@@ -14,7 +14,7 @@
   "keywords": [
     "prettier"
   ],
-  "author": "Sanghyeon Kim",
+  "author": "sanghyeon.kim",
   "license": "ISC",
   "repository": {
     "type": "git",

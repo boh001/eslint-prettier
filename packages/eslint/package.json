@@ -1,6 +1,6 @@
 {
   "name": "@sanghyeon.kim/eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config",
   "exports": {
     ".": {
@@ -14,9 +14,9 @@
   "keywords": [
     "eslint"
   ],
-  "author": "Sanghyeon Kim",
+  "author": "sanghyeon.kim",
   "license": "ISC",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/boh001/eslint-prettier.git"
   },

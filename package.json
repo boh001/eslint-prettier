@@ -11,7 +11,7 @@
   "scripts": {
     "build": "ultra -r build",
     "release": "yarn changeset publish",
-    "version": "changeset version && yarn install --no-immutable"
+    "bump": "changeset version"
   },
   "keywords": [],
   "author": "",
