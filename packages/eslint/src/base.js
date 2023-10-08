@@ -6,8 +6,8 @@ module.exports = {
   plugins: ["import", 'prettier'],
 
   rules: {
-    'prettier/prettier': 'error',
-    "no-implicit-coercion": "off",
+    'prettier/prettier': "error",
+    "no-implicit-coercion": "error",
     "no-undef": "off",
     indent: "off",
     semi: "off",

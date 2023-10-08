@@ -14,4 +14,9 @@ module.exports = {
     "react/jsx-no-target-blank": "error",
     "react/react-in-jsx-scope": "off",
   },
+  settings: {
+    react: {
+      version: "detect"
+    }
+  }
 };
