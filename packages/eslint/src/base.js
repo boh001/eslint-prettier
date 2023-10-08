@@ -7,7 +7,7 @@ module.exports = {
 
   rules: {
     'prettier/prettier': 'error',
-    "no-implicit-coercion": "error",
+    "no-implicit-coercion": "off",
     "no-undef": "off",
     indent: "off",
     semi: "off",
